@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Rachel's Blinking LEDs
+email:       eraretuya+blog@gmail.com
+author:      Eva Rachel Retuya
+description: "eraretuya's cache of ideas, thoughts and musings"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://eraretuya.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
