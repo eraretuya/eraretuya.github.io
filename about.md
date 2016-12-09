@@ -10,6 +10,9 @@ Hi. I'm Eva Rachel Retuya.
 I'm a computer engineering graduate living in the Philippines. I'm passionate
 about FOSS, electronics and audio in general.
 
+Currently, I'm an intern in charge of writing a sensor driver under the Linux
+Kernel IIO subsystem through the Outreachy program.
+
 Elsewhere:
 
 I'm also accessible at the following sites where my username is either
