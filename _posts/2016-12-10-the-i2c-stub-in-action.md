@@ -23,9 +23,12 @@ this module to emulate a device.
 ## Setting it up
 
 Compile and install your copy of the kernel source. Make sure to configure the
-`i2c-stub` and the *target* chip driver as a *module*.
+`i2c-stub` and the *target* chip driver as a *module*. In `make menuconfig`, the
+`i2c-stub` is referred to as `I2C_STUB` and its location is:
 
-We need to find the addresses required by the `i2c-stub` module and `i2cset`.
+`Device Drivers -> I2C support -> I2C/SMBus Test Stub`
+
+Next, we need to find the addresses required by the `i2c-stub` module and `i2cset`.
 The `i2c-stub` needs the *I2C slave address*. On our *target* driver, it can be
 found on the header of the [source code](http://lxr.free-electrons.com/source/drivers/iio/light/al3320a.c)
 which is `0x1C`. For `i2cset`, we need the addresses of registers supported by
