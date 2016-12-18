@@ -55,7 +55,7 @@ At this stage, I know *nothing* about the kernel. The codebase is *huge* and it'
 easy to get lost. I can read the syntax, have a few assumptions of *what* it does
 but I have little to no idea *why* it's doing that. You have to start somewhere
 and thankfully new contributors can settle first under the Staging
-`drivers/staging/` subsystem.
+<span class="bg-dark-gray white">drivers/staging/</span> subsystem.
 
 I acquainted myself with the [Kernel workflow](https://kernelnewbies.org/PatchPhilosophy#head-32f427292f3e08feae8bbee205b9c0f0cf2c51ec). Did the pre-requisite staging cleanups which are
 *checkpatch.pl-identified* issues (Hint: [coding-style fixes](https://github.com/torvalds/linux/blob/master/Documentation/CodingStyle)) and familiarizing with
@@ -113,6 +113,6 @@ Thanks for reading and take care!
 
 ---
 
-[^1]: This is my first patch outside `drivers/staging/` and posting to [LKML](https://en.wikipedia.org/wiki/Linux_kernel_mailing_list)! The change looks simple, but the behind-the-scenes analysis and decision-making took a bit of effort and is complicated than it looks.
+[^1]: This is my first patch outside <span class="bg-dark-gray white">drivers/staging/</span> and posting to [LKML](https://en.wikipedia.org/wiki/Linux_kernel_mailing_list)! The change looks simple, but the behind-the-scenes analysis and decision-making took a bit of effort and is complicated than it looks.
 [^2]: I learned about regulators by working through this [issue](https://marc.info/?l=linux-iio&m=147583702532337&w=2)
 [^3]: I understood how to properly [declare](https://marc.info/?l=linux-iio&m=147594643726702&w=2) these [defines](https://git.kernel.org/cgit/linux/kernel/git/jic23/iio.git/commit/?h=testing&id=579d542534c96c9109b63e79a2c6d22e2bca21cc) that will aid in readability instead of wondering, *what is that value for? Where did that come from?*
