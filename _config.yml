@@ -6,6 +6,9 @@ description: "eraretuya's cache of ideas, thoughts and musings"
 baseurl:     ""
 url:         "https://eraretuya.github.io"
 date_format: "%b %-d, %Y"
+header_pages:
+ - about.md
+ - contact.html
 
 # Google services
 google_verification:
@@ -25,15 +28,21 @@ ajaxify_contact_form: false
 enable_mathjax: true
 extended_fonts: false
 enable_anchorjs: false
+# Preview image for social media aka og:image and twitter:image
+post_preview_image: false
 
 # Facebook Page integration
 # (for instant articles and other stuff)
 fb_page: false
-fb_page_id: 
+fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname: eraretuya
+
+# txtpen post comments
+# (leave blank to disable txtpen)
+txtpen_sitename:
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -43,6 +52,7 @@ facebook_comments_number: 10
 
 # Social icons
 github_username: eraretuya
+reddit_username:
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
@@ -55,6 +65,8 @@ medium_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
+telegram_username:
+vk_id:
 
 # Post sharing icons
 show_sharing_icons: false
@@ -109,9 +121,12 @@ redcarpet:
 permalink:    pretty
 paginate:     4
 sass:
-  compressed: true
+  style: compressed
 gems:
   - jekyll-paginate
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
