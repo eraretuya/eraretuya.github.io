@@ -7,11 +7,15 @@ tags: about
 
 Hi. I'm Eva Rachel Retuya.
 
-I'm a computer engineering graduate living in the Philippines. I'm passionate
-about FOSS, electronics and audio in general.
+I'm a computer engineering graduate and former [Outreachy](https://www.outreachy.org/) intern for the
+Linux Kernel currently living in the Philippines. I'm passionate about FOSS, electronics and audio in
+general.
 
-Currently, I'm an intern in charge of writing a sensor driver under the Linux
-Kernel IIO subsystem through the Outreachy program.
+Currently, I'm looking into graduate schools and/or opportunities to work in Linux Kernel development.
+
+You may check out my Linux Kernel contributions here:
+* [Linux kernel source tree](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=Eva+Rachel+Retuya)
+* [Industrial I/O Subsystem tree](https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git/log/?qt=author&q=Eva+Rachel+Retuya&h=testing)
 
 Elsewhere:
 
